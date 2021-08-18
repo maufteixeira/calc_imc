@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+ <link rel="stylesheet" href="styles.css">
+ <script defer src="index.js"></script>
+ <title>Calculadora de IMC</title>
+
+</head>
+<body>
+  <div>
+    <input type="number" id="peso" placeholder="Insira o peso">
+    <br>
+    <br>
+    <input type="number" id="alt" placeholder="Insira a altura" onkey>
+    <p id="result" class="imc" ></p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <button type="button" onclick="doit()" class="btn1">Calcular</button>
+  <button type="button" class="btn2" onclick="Clean()">Limpar</button>
+  <footer class="container-fluid text-center bg-footer margin">Desenvolvido por Mauricio Teixeira©</footer>
+</body>
+</html>
+
